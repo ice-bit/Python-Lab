@@ -1,4 +1,4 @@
-
+#Adityasingh.24bpe098
 #1. Create a list of 5 odd integers using random nos. Similarly create a list of 4 even integers using random nos. Replace the third element of odd integers with a list of 4 even integers. Flattern, sort
 #and print the list. Provide appropriate message at each stage.
 import random
