@@ -1,5 +1,5 @@
-Lab-3 adityasingh.24bpe098
-1)Count how many vowels are there in a string. Accept the string from the user.
+#Lab-3 adityasingh.24bpe098
+#1)Count how many vowels are there in a string. Accept the string from the user.
 def count_vowels(s):
     count = 0
     for ch in s:
@@ -8,7 +8,7 @@ def count_vowels(s):
     print("Vowels:", count)
 
 count_vowels("Hello World")
-2)Write your own functions (without using built-in functions) to convert all characters of a string into lower case / upper case / toggle case.
+#2)Write your own functions (without using built-in functions) to convert all characters of a string into lower case / upper case / toggle case.
 def to_lower(s):
     result = ''
     for ch in s:
@@ -41,7 +41,7 @@ def toggle_case(s):
 print(to_lower("HeLLo"))
 print(to_upper("HeLLo"))
 print(toggle_case("HeLLo"))
-3)Accept two strings. Check whether one string is there in another string.
+#3)Accept two strings. Check whether one string is there in another string.
 def is_substring(s1, s2):
     if s1 in s2 or s2 in s1:
         print("Yes, one is in another")
@@ -49,7 +49,7 @@ def is_substring(s1, s2):
         print("No, not found")
 
 is_substring("test", "This is a test")
-4)Write a function that removes one string from another string, if present.
+#4)Write a function that removes one string from another string, if present.
 def remove_string(main, remove):
     result = ""
     i = 0
